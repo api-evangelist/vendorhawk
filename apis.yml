@@ -1,7 +1,25 @@
 aid: vendorhawk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vendorhawk.png
 name: VendorHawk
-description: VendorHawk is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  VendorHawk was a Seattle-based SaaS subscription and vendor management platform
+  that helped IT and finance teams discover, track, renew, and optimize software
+  spend across the organization. Founded in 2014 and backed by Techstars, VendorHawk
+  was acquired by ServiceNow (NYSE NOW) in an all-cash transaction announced in
+  April 2018 and folded into the ServiceNow platform. The vendorhawk.co domain now
+  301-redirects to servicenow.com, and the product has no independent public API,
+  developer portal, or artifact surface of its own.
 url: https://raw.githubusercontent.com/api-evangelist/vendorhawk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: servicenow
+x-acquired-date: '2018-04-25'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- SaaS Management
+- Vendor Management
+- Subscription Management
+- Software Spend
+- Acquired
+- ServiceNow
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://vendorhawk.co/
+- type: Acquirer
+  url: https://www.servicenow.com/company/media/press-room/servicenow-acquires-vendorhawk.html
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
